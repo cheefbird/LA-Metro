@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */; };
+		259BB4182AE7195D009DA7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4172AE7195D009DA7D7 /* ContentView.swift */; };
+		259BB41A2AE7195E009DA7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259BB4192AE7195E009DA7D7 /* Assets.xcassets */; };
+		259BB41E2AE7195E009DA7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259BB41D2AE7195E009DA7D7 /* Preview Assets.xcassets */; };
+		259BB4282AE7195E009DA7D7 /* LA_MetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4272AE7195E009DA7D7 /* LA_MetroTests.swift */; };
+		259BB4322AE7195E009DA7D7 /* LA_MetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4312AE7195E009DA7D7 /* LA_MetroUITests.swift */; };
+		259BB4342AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */; };
+		259BB4422AE719C3009DA7D7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 259BB4412AE719C3009DA7D7 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259BB4242AE7195E009DA7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259BB40A2AE7195D009DA7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259BB4112AE7195D009DA7D7;
+			remoteInfo = "LA-Metro";
+		};
+		259BB42E2AE7195E009DA7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259BB40A2AE7195D009DA7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259BB4112AE7195D009DA7D7;
+			remoteInfo = "LA-Metro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		259BB4122AE7195D009DA7D7 /* LA-Metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LA-Metro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroApp.swift; sourceTree = "<group>"; };
+		259BB4172AE7195D009DA7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		259BB4192AE7195E009DA7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259BB41B2AE7195E009DA7D7 /* LA_Metro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LA_Metro.entitlements; sourceTree = "<group>"; };
+		259BB41D2AE7195E009DA7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		259BB4232AE7195E009DA7D7 /* LA-MetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA-MetroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259BB4272AE7195E009DA7D7 /* LA_MetroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroTests.swift; sourceTree = "<group>"; };
+		259BB42D2AE7195E009DA7D7 /* LA-MetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA-MetroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259BB4312AE7195E009DA7D7 /* LA_MetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroUITests.swift; sourceTree = "<group>"; };
+		259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259BB40F2AE7195D009DA7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259BB4422AE719C3009DA7D7 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259BB4202AE7195E009DA7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259BB42A2AE7195E009DA7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259BB4092AE7195D009DA7D7 = {
+			isa = PBXGroup;
+			children = (
+				259BB4142AE7195D009DA7D7 /* LA-Metro */,
+				259BB4262AE7195E009DA7D7 /* LA-MetroTests */,
+				259BB4302AE7195E009DA7D7 /* LA-MetroUITests */,
+				259BB4132AE7195D009DA7D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259BB4132AE7195D009DA7D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259BB4122AE7195D009DA7D7 /* LA-Metro.app */,
+				259BB4232AE7195E009DA7D7 /* LA-MetroTests.xctest */,
+				259BB42D2AE7195E009DA7D7 /* LA-MetroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259BB4142AE7195D009DA7D7 /* LA-Metro */ = {
+			isa = PBXGroup;
+			children = (
+				259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */,
+				259BB4172AE7195D009DA7D7 /* ContentView.swift */,
+				259BB4192AE7195E009DA7D7 /* Assets.xcassets */,
+				259BB41B2AE7195E009DA7D7 /* LA_Metro.entitlements */,
+				259BB41C2AE7195E009DA7D7 /* Preview Content */,
+			);
+			path = "LA-Metro";
+			sourceTree = "<group>";
+		};
+		259BB41C2AE7195E009DA7D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				259BB41D2AE7195E009DA7D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		259BB4262AE7195E009DA7D7 /* LA-MetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				259BB4272AE7195E009DA7D7 /* LA_MetroTests.swift */,
+			);
+			path = "LA-MetroTests";
+			sourceTree = "<group>";
+		};
+		259BB4302AE7195E009DA7D7 /* LA-MetroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259BB4312AE7195E009DA7D7 /* LA_MetroUITests.swift */,
+				259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */,
+			);
+			path = "LA-MetroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259BB4112AE7195D009DA7D7 /* LA-Metro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259BB4372AE7195E009DA7D7 /* Build configuration list for PBXNativeTarget "LA-Metro" */;
+			buildPhases = (
+				259BB40E2AE7195D009DA7D7 /* Sources */,
+				259BB40F2AE7195D009DA7D7 /* Frameworks */,
+				259BB4102AE7195D009DA7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LA-Metro";
+			packageProductDependencies = (
+				259BB4412AE719C3009DA7D7 /* Alamofire */,
+			);
+			productName = "LA-Metro";
+			productReference = 259BB4122AE7195D009DA7D7 /* LA-Metro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259BB4222AE7195E009DA7D7 /* LA-MetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259BB43A2AE7195E009DA7D7 /* Build configuration list for PBXNativeTarget "LA-MetroTests" */;
+			buildPhases = (
+				259BB41F2AE7195E009DA7D7 /* Sources */,
+				259BB4202AE7195E009DA7D7 /* Frameworks */,
+				259BB4212AE7195E009DA7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259BB4252AE7195E009DA7D7 /* PBXTargetDependency */,
+			);
+			name = "LA-MetroTests";
+			productName = "LA-MetroTests";
+			productReference = 259BB4232AE7195E009DA7D7 /* LA-MetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259BB42C2AE7195E009DA7D7 /* LA-MetroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259BB43D2AE7195E009DA7D7 /* Build configuration list for PBXNativeTarget "LA-MetroUITests" */;
+			buildPhases = (
+				259BB4292AE7195E009DA7D7 /* Sources */,
+				259BB42A2AE7195E009DA7D7 /* Frameworks */,
+				259BB42B2AE7195E009DA7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259BB42F2AE7195E009DA7D7 /* PBXTargetDependency */,
+			);
+			name = "LA-MetroUITests";
+			productName = "LA-MetroUITests";
+			productReference = 259BB42D2AE7195E009DA7D7 /* LA-MetroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259BB40A2AE7195D009DA7D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					259BB4112AE7195D009DA7D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					259BB4222AE7195E009DA7D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 259BB4112AE7195D009DA7D7;
+					};
+					259BB42C2AE7195E009DA7D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 259BB4112AE7195D009DA7D7;
+					};
+				};
+			};
+			buildConfigurationList = 259BB40D2AE7195D009DA7D7 /* Build configuration list for PBXProject "LA-Metro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259BB4092AE7195D009DA7D7;
+			packageReferences = (
+				259BB4402AE719C3009DA7D7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 259BB4132AE7195D009DA7D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259BB4112AE7195D009DA7D7 /* LA-Metro */,
+				259BB4222AE7195E009DA7D7 /* LA-MetroTests */,
+				259BB42C2AE7195E009DA7D7 /* LA-MetroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259BB4102AE7195D009DA7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259BB41E2AE7195E009DA7D7 /* Preview Assets.xcassets in Resources */,
+				259BB41A2AE7195E009DA7D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259BB4212AE7195E009DA7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259BB42B2AE7195E009DA7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259BB40E2AE7195D009DA7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259BB4182AE7195D009DA7D7 /* ContentView.swift in Sources */,
+				259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259BB41F2AE7195E009DA7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259BB4282AE7195E009DA7D7 /* LA_MetroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259BB4292AE7195E009DA7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259BB4342AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift in Sources */,
+				259BB4322AE7195E009DA7D7 /* LA_MetroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259BB4252AE7195E009DA7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259BB4112AE7195D009DA7D7 /* LA-Metro */;
+			targetProxy = 259BB4242AE7195E009DA7D7 /* PBXContainerItemProxy */;
+		};
+		259BB42F2AE7195E009DA7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259BB4112AE7195D009DA7D7 /* LA-Metro */;
+			targetProxy = 259BB42E2AE7195E009DA7D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		259BB4352AE7195E009DA7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		259BB4362AE7195E009DA7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		259BB4382AE7195E009DA7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LA-Metro/LA_Metro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LA-Metro/Preview Content\"";
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbreidenbach.LA-Metro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259BB4392AE7195E009DA7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LA-Metro/LA_Metro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LA-Metro/Preview Content\"";
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbreidenbach.LA-Metro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259BB43B2AE7195E009DA7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbreidenbach.LA-MetroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA-Metro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LA-Metro";
+			};
+			name = Debug;
+		};
+		259BB43C2AE7195E009DA7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbreidenbach.LA-MetroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA-Metro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LA-Metro";
+			};
+			name = Release;
+		};
+		259BB43E2AE7195E009DA7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbreidenbach.LA-MetroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LA-Metro";
+			};
+			name = Debug;
+		};
+		259BB43F2AE7195E009DA7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbreidenbach.LA-MetroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LA-Metro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259BB40D2AE7195D009DA7D7 /* Build configuration list for PBXProject "LA-Metro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259BB4352AE7195E009DA7D7 /* Debug */,
+				259BB4362AE7195E009DA7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259BB4372AE7195E009DA7D7 /* Build configuration list for PBXNativeTarget "LA-Metro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259BB4382AE7195E009DA7D7 /* Debug */,
+				259BB4392AE7195E009DA7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259BB43A2AE7195E009DA7D7 /* Build configuration list for PBXNativeTarget "LA-MetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259BB43B2AE7195E009DA7D7 /* Debug */,
+				259BB43C2AE7195E009DA7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259BB43D2AE7195E009DA7D7 /* Build configuration list for PBXNativeTarget "LA-MetroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259BB43E2AE7195E009DA7D7 /* Debug */,
+				259BB43F2AE7195E009DA7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		259BB4402AE719C3009DA7D7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		259BB4412AE719C3009DA7D7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 259BB4402AE719C3009DA7D7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 259BB40A2AE7195D009DA7D7 /* Project object */;
+}
