@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253F25D92AE83FBF003DA02C /* metro-routes.json in Resources */ = {isa = PBXBuildFile; fileRef = 253F25D82AE83FBF003DA02C /* metro-routes.json */; };
 		259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */; };
 		259BB4182AE7195D009DA7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4172AE7195D009DA7D7 /* ContentView.swift */; };
 		259BB41A2AE7195E009DA7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259BB4192AE7195E009DA7D7 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		253F25D82AE83FBF003DA02C /* metro-routes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "metro-routes.json"; sourceTree = "<group>"; };
 		259BB4122AE7195D009DA7D7 /* LA-Metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LA-Metro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroApp.swift; sourceTree = "<group>"; };
 		259BB4172AE7195D009DA7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253F25D72AE83F95003DA02C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				253F25D82AE83FBF003DA02C /* metro-routes.json */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		259BB4092AE7195D009DA7D7 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,8 @@
 		259BB4142AE7195D009DA7D7 /* LA-Metro */ = {
 			isa = PBXGroup;
 			children = (
+				253F25D72AE83F95003DA02C /* Helper */,
+				25D38B0B2AE83B64007C984C /* Model */,
 				259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */,
 				259BB4172AE7195D009DA7D7 /* ContentView.swift */,
 				259BB4192AE7195E009DA7D7 /* Assets.xcassets */,
@@ -129,6 +141,13 @@
 				259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */,
 			);
 			path = "LA-MetroUITests";
+			sourceTree = "<group>";
+		};
+		25D38B0B2AE83B64007C984C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253F25D92AE83FBF003DA02C /* metro-routes.json in Resources */,
 				259BB41E2AE7195E009DA7D7 /* Preview Assets.xcassets in Resources */,
 				259BB41A2AE7195E009DA7D7 /* Assets.xcassets in Resources */,
 			);
