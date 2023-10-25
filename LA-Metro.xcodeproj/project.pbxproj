@@ -18,6 +18,7 @@
 		259BB4322AE7195E009DA7D7 /* LA_MetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4312AE7195E009DA7D7 /* LA_MetroUITests.swift */; };
 		259BB4342AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */; };
 		259BB4422AE719C3009DA7D7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 259BB4412AE719C3009DA7D7 /* Alamofire */; };
+		25C0D5C82AE9A6AC009BF55C /* StaticHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0D5C72AE9A6AC009BF55C /* StaticHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		259BB42D2AE7195E009DA7D7 /* LA-MetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA-MetroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259BB4312AE7195E009DA7D7 /* LA_MetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroUITests.swift; sourceTree = "<group>"; };
 		259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25C0D5C72AE9A6AC009BF55C /* StaticHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				253F25D82AE83FBF003DA02C /* metro-routes.json */,
+				25C0D5C72AE9A6AC009BF55C /* StaticHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				259BB4182AE7195D009DA7D7 /* ContentView.swift in Sources */,
 				259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */,
 				253F25DB2AE84408003DA02C /* Stop.swift in Sources */,
+				25C0D5C82AE9A6AC009BF55C /* StaticHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
