@@ -19,8 +19,9 @@
 		259BB4342AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */; };
 		259BB4422AE719C3009DA7D7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 259BB4412AE719C3009DA7D7 /* Alamofire */; };
 		25C0D5C82AE9A6AC009BF55C /* StaticHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0D5C72AE9A6AC009BF55C /* StaticHelper.swift */; };
-		25C0D5CC2AE9AD60009BF55C /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F25DA2AE84408003DA02C /* Stop.swift */; };
 		25C0D5CE2AE9B1B6009BF55C /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0D5CD2AE9B1B6009BF55C /* Destination.swift */; };
+		25C0D5D12AE9B6BF009BF55C /* MetroNetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0D5D02AE9B6BF009BF55C /* MetroNetRouter.swift */; };
+		25C0D5D22AE9B6BF009BF55C /* MetroNetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0D5D02AE9B6BF009BF55C /* MetroNetRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		25C0D5C72AE9A6AC009BF55C /* StaticHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticHelper.swift; sourceTree = "<group>"; };
 		25C0D5CD2AE9B1B6009BF55C /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		25C0D5D02AE9B6BF009BF55C /* MetroNetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		259BB4142AE7195D009DA7D7 /* LA-Metro */ = {
 			isa = PBXGroup;
 			children = (
+				25C0D5CF2AE9B654009BF55C /* Network */,
 				253F25D72AE83F95003DA02C /* Helper */,
 				25D38B0B2AE83B64007C984C /* Model */,
 				259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */,
@@ -151,6 +154,14 @@
 				259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */,
 			);
 			path = "LA-MetroUITests";
+			sourceTree = "<group>";
+		};
+		25C0D5CF2AE9B654009BF55C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				25C0D5D02AE9B6BF009BF55C /* MetroNetRouter.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		25D38B0B2AE83B64007C984C /* Model */ = {
@@ -305,6 +316,7 @@
 				25C0D5CE2AE9B1B6009BF55C /* Destination.swift in Sources */,
 				259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */,
 				253F25DB2AE84408003DA02C /* Stop.swift in Sources */,
+				25C0D5D12AE9B6BF009BF55C /* MetroNetRouter.swift in Sources */,
 				25C0D5C82AE9A6AC009BF55C /* StaticHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,8 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C0D5D22AE9B6BF009BF55C /* MetroNetRouter.swift in Sources */,
 				259BB4282AE7195E009DA7D7 /* LA_MetroTests.swift in Sources */,
-				25C0D5CC2AE9AD60009BF55C /* Stop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
