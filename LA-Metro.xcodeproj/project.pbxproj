@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		253F25D92AE83FBF003DA02C /* metro-routes.json in Resources */ = {isa = PBXBuildFile; fileRef = 253F25D82AE83FBF003DA02C /* metro-routes.json */; };
+		253F25DB2AE84408003DA02C /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F25DA2AE84408003DA02C /* Stop.swift */; };
+		253F25DD2AE845CB003DA02C /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F25DC2AE845CB003DA02C /* Prediction.swift */; };
 		259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */; };
 		259BB4182AE7195D009DA7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4172AE7195D009DA7D7 /* ContentView.swift */; };
 		259BB41A2AE7195E009DA7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259BB4192AE7195E009DA7D7 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		253F25D82AE83FBF003DA02C /* metro-routes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "metro-routes.json"; sourceTree = "<group>"; };
+		253F25DA2AE84408003DA02C /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		253F25DC2AE845CB003DA02C /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
 		259BB4122AE7195D009DA7D7 /* LA-Metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LA-Metro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259BB4152AE7195D009DA7D7 /* LA_MetroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroApp.swift; sourceTree = "<group>"; };
 		259BB4172AE7195D009DA7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 		25D38B0B2AE83B64007C984C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				253F25DA2AE84408003DA02C /* Stop.swift */,
+				253F25DC2AE845CB003DA02C /* Prediction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -287,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253F25DD2AE845CB003DA02C /* Prediction.swift in Sources */,
 				259BB4182AE7195D009DA7D7 /* ContentView.swift in Sources */,
 				259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */,
+				253F25DB2AE84408003DA02C /* Stop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
