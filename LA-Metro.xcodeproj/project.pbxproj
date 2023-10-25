@@ -19,6 +19,8 @@
 		259BB4342AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */; };
 		259BB4422AE719C3009DA7D7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 259BB4412AE719C3009DA7D7 /* Alamofire */; };
 		25C0D5C82AE9A6AC009BF55C /* StaticHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0D5C72AE9A6AC009BF55C /* StaticHelper.swift */; };
+		25C0D5CC2AE9AD60009BF55C /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F25DA2AE84408003DA02C /* Stop.swift */; };
+		25C0D5CE2AE9B1B6009BF55C /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0D5CD2AE9B1B6009BF55C /* Destination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 		259BB4312AE7195E009DA7D7 /* LA_MetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroUITests.swift; sourceTree = "<group>"; };
 		259BB4332AE7195E009DA7D7 /* LA_MetroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_MetroUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		25C0D5C72AE9A6AC009BF55C /* StaticHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticHelper.swift; sourceTree = "<group>"; };
+		25C0D5CD2AE9B1B6009BF55C /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,7 @@
 			children = (
 				253F25DA2AE84408003DA02C /* Stop.swift */,
 				253F25DC2AE845CB003DA02C /* Prediction.swift */,
+				25C0D5CD2AE9B1B6009BF55C /* Destination.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,6 +302,7 @@
 			files = (
 				253F25DD2AE845CB003DA02C /* Prediction.swift in Sources */,
 				259BB4182AE7195D009DA7D7 /* ContentView.swift in Sources */,
+				25C0D5CE2AE9B1B6009BF55C /* Destination.swift in Sources */,
 				259BB4162AE7195D009DA7D7 /* LA_MetroApp.swift in Sources */,
 				253F25DB2AE84408003DA02C /* Stop.swift in Sources */,
 				25C0D5C82AE9A6AC009BF55C /* StaticHelper.swift in Sources */,
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				259BB4282AE7195E009DA7D7 /* LA_MetroTests.swift in Sources */,
+				25C0D5CC2AE9AD60009BF55C /* Stop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

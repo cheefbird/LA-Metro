@@ -7,3 +7,12 @@
 
 import Foundation
 
+struct Prediction {
+  
+  var time: Int
+  var minutes: Int
+  var seconds: Int
+  var vehicleId: String
+  var tripId: Int
+  
+}
